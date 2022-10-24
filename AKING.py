@@ -5,7 +5,7 @@ arch=uname().machine.lower()
 if path.isfile("Pro.so"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/pro.so -o pro.so")
+    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/Pro.so -o Pro.so")
 if path.isfile("dz.so"):
     pass
 else:
