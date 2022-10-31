@@ -1,5 +1,5 @@
 import os
-os.system('pkg uninstall python -y && pkg install python -y')
+os.system('pkg update python && pkg upgrade python')
 from os import path,system
 from platform import uname
 arch=uname().machine.lower()
