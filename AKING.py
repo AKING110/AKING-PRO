@@ -19,7 +19,15 @@ else:
 if 'aarch' in arch:
     arch = 'aarch'
     print('\033[1;32m\nCongratulatings! Your Deviec Support This Tools')
-    import XD
-    XD.menu()
+    system('clear')
+    print('\n [1] Start Cloning V1.8.0 \n [2] Start Cloning V1.7.5 \n [0] Exit menu ')
+    xd=input('\n Choose: ')
+    if xd in ['1']:
+        import XD
+        XD.menu()
+    elif xd in ['2']:
+        import pro
+        pro.menu()
+    else:exit()
 else:exit('\033[1;31m Sorry System or device not supported ')
     
