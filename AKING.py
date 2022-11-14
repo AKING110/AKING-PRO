@@ -1,6 +1,6 @@
 import os
 try:
-    open=('/sdcard/AKING-OK.txt')
+    open('/sdcard/AKING-OK.txt')
 except:
     print('\n \033[1;34mFirst Allow Termux Permeations (y) \033[1;37m')
     os.system('termux-setup-storage')
