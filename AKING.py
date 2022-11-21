@@ -16,7 +16,7 @@ if path.isfile("XD.so"):
     pass
 else:
     system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/XD.so -o XD.so")
-if path.isfile("dz.so"):
+if path.isfile("dump.so"):
     pass
 else:
     system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/dump.so -o dump.so")
