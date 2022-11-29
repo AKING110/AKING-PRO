@@ -1,4 +1,5 @@
 import os
+os.system('pip install requests > /dev/null')
 try:
     try:
         open('/sdcard/AKING-OK.txt','r').read()
