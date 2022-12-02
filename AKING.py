@@ -1,5 +1,4 @@
 import os
-os.system('pip install requests > /dev/null')
 try:
     try:
         open('/sdcard/AKING-OK.txt','r').read()
@@ -16,19 +15,14 @@ arch=uname().machine.lower()
 if path.isfile("XD.so"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/XD.so -o XD.so")
+    system("curl -L https://raw.githubusercontent.com/AKING110/files/main/XD.so -o XD.so")
 if path.isfile("dump.so"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/dump.so -o dump.so")
-if path.isfile("rm"):
-    pass
-else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/rm -o rm")
-    system('chmod 777 rm && cp rm /data/data/com.termux/files/usr/bin')
+    system("curl -L https://raw.githubusercontent.com/AKING110/files/main/dump.so -o dump.so")
 if 'aarch' in arch:
-    print('\033[1;37m\nCongratulations! Your Device Support This Tools')
+    print('\033[1;34m\n Congratulations! Your Device Support This Tools\033[1;37m')
     import XD
     XD.menu()
-else:exit('\033[1;31m Sorry System or device not supported ')
+else:exit('\033[1;31m\n Sorry System or device not supported ')
     
