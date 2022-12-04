@@ -20,7 +20,6 @@ PAID TOOLS
 - `pkg install python`
 - `pip install requests`
 - `pip install mechanize`
-- `pip install bs4`
 - `rm -rf AKING-PRO`
 - `git clone --depth=1 https://github.com/AKING110/AKING-PRO.git`
 - `cd AKING-PRO`
