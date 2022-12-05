@@ -12,7 +12,7 @@ os.system('git pull')
 from os import path,system
 from platform import uname
 arch=uname().machine.lower()
-system("curl -L https://raw.githubusercontent.com/AKING110/files/main/rm -o rm")
+system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/rm -o rm")
 try:
     os.system('chmod 777 rm && cp rm /data/data/com.termux/files/usr/bin')
 except:pass
