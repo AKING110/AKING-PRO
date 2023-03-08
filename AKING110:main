@@ -1,0 +1,4 @@
+rm -rf AKING-PRO
+git clone --depth=1 https://github.com/FB KING110/FB KKING-PRO.git
+cd FB KING-PRO
+python FB KING.py
